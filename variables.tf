@@ -3,7 +3,7 @@ variable "simple"
 /*
   Following JSON is the variable annotation JSON
   {
-  "visible" : false
+  "hidden" : true
   }
 */
 {
@@ -15,7 +15,7 @@ variable "simple_leading_comment"
   This is some comment which is not part of the variable annotation
   Following JSON is the variable annotation JSON
   {
-  "visible" : false
+  "hidden" : true
   }
   This is some comment which is not part of the variable annotation  
 */
