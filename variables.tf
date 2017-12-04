@@ -3,6 +3,26 @@ variable "simple"
 /*
   Following JSON is the variable annotation JSON
   {
+  "hidden" : false
+  }
+*/
+{
+}
+
+variable "complex"
+/*
+  Following JSON is the variable annotation JSON
+  {
+  "hidden" : true
+  }
+*/
+{
+}
+
+variable "simple - complex"
+/*
+  Following JSON is the variable annotation JSON
+  {
   "hidden" : true
   }
 */
