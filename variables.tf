@@ -13,7 +13,11 @@ variable "complex"
 /*
   Following JSON is the variable annotation JSON
   {
-  "hidden" : true
+  "hidden" : true,
+  "range" : {
+    "start" : 1,
+    "end" : 5
+   }
   }
 */
 {
