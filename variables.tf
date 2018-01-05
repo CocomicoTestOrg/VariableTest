@@ -103,3 +103,25 @@ variable "complex"
 */
 {
 }
+
+# variable with option
+variable "myOptionsVar"
+/*
+  Following JSON is the variable annotation JSON
+  {
+    "visible" : true,
+    "options" : [
+      {
+        "value": "dc1",    
+        "label": "My Favorite DC",  
+        "default": "true"  
+      },
+      {
+        "value": "dc2",    
+        "label": "Second DC"
+      }
+    ]
+  }
+*/
+{
+}
