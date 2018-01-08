@@ -119,7 +119,7 @@ variable "myOptionsVar"
       {
         "value": "dc2",    
         "label": "Second DC"
-      },
+      }
     ]
   }
 */
