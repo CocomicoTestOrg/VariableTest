@@ -106,8 +106,6 @@ variable "complex"
 
 # variable with option
 variable "myOptionsVar"
-  type    = "string"
-  default = "dc2"
 /*
   Following JSON is the variable annotation JSON
   {
@@ -126,4 +124,6 @@ variable "myOptionsVar"
   }
 */
 {
+  type    = "string"
+  default = "dc2"
 }
