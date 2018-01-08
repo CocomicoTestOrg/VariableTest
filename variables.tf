@@ -124,6 +124,5 @@ variable "myOptionsVar"
   }
 */
 {
-  type    = "string"
   default = "dc2"
 }
