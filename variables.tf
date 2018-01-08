@@ -106,6 +106,8 @@ variable "complex"
 
 # variable with option
 variable "myOptionsVar"
+  type    = "string"
+  default = "dc2"
 /*
   Following JSON is the variable annotation JSON
   {
@@ -119,10 +121,7 @@ variable "myOptionsVar"
       {
         "value": "dc2",    
         "label": "Second DC"
-       },
-      {
-        "value": ""
-      }
+      },
     ]
   }
 */
