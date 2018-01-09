@@ -119,6 +119,10 @@ variable "myOptionsVar"
       {
         "value": "dc2",    
         "label": "Second DC"
+      },
+      {
+        "value": "javascript",    
+        "label": "<script>alert('Huhu')</script>"
       }
     ]
   }
