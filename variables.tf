@@ -105,7 +105,7 @@ variable "complex"
 }
 
 # variable with option
-variable "<script>alert(1)</script>"
+variable "Hi+<script>alert(1)</script>"
 /*
   Following JSON is the variable annotation JSON
   {
