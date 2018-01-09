@@ -122,7 +122,7 @@ variable "myOptionsVar"
       },
       {
         "value": "javascript",    
-        "label": "alert('Huhu')&lt;/script&gt;"
+        "label": "&lt;script&gt;alert('Huhu')&lt;/script&gt;"
       }
     ]
   }
