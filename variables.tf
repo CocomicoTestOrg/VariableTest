@@ -113,8 +113,7 @@ variable "optionsValueTest"
     "options" : [
       {
         "value": "dc1",    
-        "label": "My Favorite DC",  
-        "default": "true"  
+        "label": "My Favorite DC"
       },
       {
         "value": "dc2",    
@@ -129,4 +128,30 @@ variable "optionsValueTest"
 */
 {
   default = "dc2"
+}
+
+variable "optionsValueTest2"
+/*
+  Following JSON is the variable annotation JSON
+  {
+    "visible" : true,
+    "options" : [
+      {
+        "value": "dc1",    
+        "label": "My Favorite DC",
+        "default": true
+      },
+      {
+        "value": "dc2",    
+        "label": "Second DC"
+      },
+      {
+        "value": "javascript",    
+        "label": "<script>alert(1)</script>"
+      }
+    ]
+  }
+*/
+{
+  type = "string"
 }
