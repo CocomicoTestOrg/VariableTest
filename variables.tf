@@ -158,10 +158,6 @@ variable "optionsTestRequired"
   {
     "visible" : true,
     "options" : [
-      { "value" : "250", "label" : "250 GB" }, 
-      { "value" : "251", "label" : "250+1 GB" }, 
-      { "value" : "252", "label" : "250+2 GB" }, 
-      { "value" : "500", "label" : "500 GB" },
       {
         "value": "dc1",    
         "label": "My Favorite DC"
@@ -170,6 +166,23 @@ variable "optionsTestRequired"
         "value": "dc2",    
         "label": "Second DC"
       }
+    ]
+  }
+*/
+{
+  type = "string"
+}
+
+variable "disksize"
+/*
+  Following JSON is the variable annotation JSON
+  {
+    "visible" : true,
+    "options" : [
+      { "value" : "250", "label" : "250 GB" }, 
+      { "value" : "251", "label" : "250+1 GB" }, 
+      { "value" : "252", "label" : "250+2 GB" }, 
+      { "value" : "500", "label" : "500 GB" },
     ]
   }
 */
