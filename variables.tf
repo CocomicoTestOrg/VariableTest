@@ -158,6 +158,10 @@ variable "optionsTestRequired"
   {
     "visible" : true,
     "options" : [
+      { "value" : 250, "label" : "250 GB" }, 
+      { "value" : 251, "label" : "250+1 GB" }, 
+      { "value" : 252, "label" : "250+2 GB" }, 
+      { "value" : 500, "label" : "500 GB" },
       {
         "value": "dc1",    
         "label": "My Favorite DC"
